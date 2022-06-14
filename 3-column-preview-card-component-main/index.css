@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15vh 20vw;
+}
+
+@media (max-width: 375px) {
+    main{
+    display:flex;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    margin: 15vh 5vw;
+}
+    .container-sedans{
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+
+}
+    .container-luxury{
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;       
+}
+
+}
+.container-sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 63px 56px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* width:500px; */
+}
+
+.container-suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 63px 56px;
+
+}
+
+.container-luxury{
+    background-color: hsl(179, 100%, 13%) ;
+    padding: 63px 56px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+
+}
+
+img{
+    width: 55px;
+    padding: 0px 0px 15px 0px;
+}
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.1rem;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.9rem;
+    padding: 15px 0px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.orange-accent{
+    color: hsl(31, 77%, 52%);
+}
+
+.cyan-accent{
+    color: hsl(184, 100%, 22%);
+}
+
+.dark-cyan-accent{
+    color: hsl(179, 100%, 13%) ;
+}
+
+button{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+    margin: 10px 5px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
